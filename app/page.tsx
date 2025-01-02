@@ -2,6 +2,7 @@ import ContactMe from "@/components/ContactMe";
 import { FloatingNav } from "@/components/FloatingNav";
 import Grid from "@/components/Grid";
 import Hero from "@/components/Hero";
+import Profile from "@/components/Profile";
 import ReacentProject from "@/components/ReacentProject";
 import Resume from "@/components/Resume";
 import Testemonial from "@/components/Testemonial";
@@ -15,6 +16,7 @@ export default function Home() {
     <div className="max-w-7xl w-full ">
       <h1 className="text-white-200">Hello, Portfolio</h1>
       <FloatingNav navItems={navItems} />
+      <Profile/>
       <Hero/>
       <Grid/>
       <Testemonial/>

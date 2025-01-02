@@ -11,7 +11,7 @@ const ReacentProjects = () => {
           className="mb-4  font-extrabold leading-none tracking-tight  md:text-5xl lg: text-6xl dark: text-white"
         >
           A small selection of
-          <span className="text-purple">recent projects</span>
+          <span className="text-purple"> recent projects</span>
         </h1>
         <div className="flex flex-wrap items-center justify-center p-4 gap-16 mt-10">
           {projects.map(({ title, des, img, iconLists, id, link }) => (
